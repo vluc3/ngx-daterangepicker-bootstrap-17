@@ -5,5 +5,5 @@ ng new ngx-daterangepicker-bootstrap-17 --no-standalone --skip-tests=true --rout
 
 npm i -s dayjs
 npm i -s bootstrap
-ngx-daterangepicker-bootstrap
+npm i -s ngx-daterangepicker-bootstrap
 ```
