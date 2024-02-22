@@ -1,19 +1,9 @@
 import { Component } from '@angular/core';
-import {
-  NgxDaterangepickerBootstrapComponent,
-  NgxDaterangepickerBootstrapDirective,
-} from 'ngx-daterangepicker-bootstrap';
-import { FormsModule } from '@angular/forms';
+
 import dayjs, { Dayjs } from 'dayjs';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [
-    NgxDaterangepickerBootstrapDirective,
-    NgxDaterangepickerBootstrapComponent,
-    FormsModule,
-  ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
